@@ -15,3 +15,12 @@ function myFunction() {
     header.classList.remove("sticky");
   }
 }
+
+
+$(".nav-link").on("click", function(){
+    var target = $($(this.hash));
+    $('html, body').animate({
+        scrollTop: $(target).offset().top
+    },500, 'linear');
+})
+
