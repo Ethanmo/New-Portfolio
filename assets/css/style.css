@@ -1,0 +1,148 @@
+
+
+.nav {
+  padding: 10px 15%;
+  color: #f1f1f1;
+  width: 100%;
+  z-index: 9999;
+}
+
+
+/* The sticky class is added to the header with JS when it reaches its scroll position */
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%
+}
+
+/* Add some top padding to the page content to prevent sudden quick movement (as the header gets a new position at the top of the page (position:fixed and top:0) */
+.sticky + .content {
+  padding-top: 100px;
+}
+
+.nav-link {
+    color:white;
+    font-size:30px;
+    margin: 0 20px;
+}
+
+
+.nav-item :hover {
+    color: grey;
+}
+
+.container-full {
+    margin:0;
+    padding:0;
+    width: 100%;
+}
+
+#welcomePic {
+    max-width: 100%;
+    height: auto;
+    opacity: 0.85;
+}
+
+.nameTag {
+  position: absolute;
+  top: 40%;
+  left: 70%;
+  transform: translate(-50%, -50%);
+  color: rgb(255, 255, 255);
+  font-size: 90px;
+}
+
+@media only screen and (max-width: 1200px){
+    .nameTag {
+        top: 20%;
+        left: 50%;
+        font-size: 60px
+    }
+}
+
+
+
+.pageTag {
+    width: 230px;
+    height: 80px;
+    padding: 25px;
+    font-size: 30px;
+}
+
+.aboutMeContent {
+    margin-top: 150px;
+}
+
+.aboutMeText {
+    font-size: 20px;
+    letter-spacing: 0.6px;
+}
+
+.contentPage {
+    margin-top: 100px;
+    padding: 100px 15%;
+    min-height: 1000px;
+}
+
+.portfolioPage {
+    background: rgb(235, 235, 235);
+}
+
+.flex-gallery {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 100px;
+}
+
+.flex-gallery > a {
+  background-color: #f1f1f1;
+  width: 300px;
+  margin: 10px;
+  text-align: center;
+  line-height: 75px;
+  font-size: 30px;
+  text-decoration: none;
+  color: gray;
+}
+
+.projBlock > p {
+    height: 60px;
+    font-size: 22px;
+}
+
+.projPic {
+    max-width:100%;
+    max-height:100%;
+}
+
+.contactPage {
+    min-height: 800px;
+}
+
+.contactForm {
+    margin-top: 100px;
+}
+
+.myFooter {
+    width: 100%;
+    min-height:150px;
+    background: rgb(219, 219, 219);
+    padding: 10px;
+}
+
+.icons {
+    position: absolute;
+    left:44%;
+}
+
+i {
+    margin: 20px;
+    text-align: center;
+    text-decoration: none;
+    color: gray;
+}
+
+.fab:hover {
+    color:rgb(73, 73, 73);
+}
+
