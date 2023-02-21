@@ -25,8 +25,11 @@ body {
 
 .nav-link {
     color:white;
-    font-size:30px;
+    font-size:25px;
+    font-family:fantasy;
+    letter-spacing: 0.1em;
     margin: 0 20px;
+
 }
 
 
@@ -49,13 +52,16 @@ body {
 .topBanner {
     background-color: rgb(212, 212, 212);
     min-height: 60px;
-    margin-bottom: 0px;
+    margin-bottom: -15px;
     padding-top: 10px;
 }
 
 .bannerName {
     text-align: center;
-
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.1em;
+    letter-spacing: 0.5em;
+    font-weight: 900;
 }
 
 .nameTag {
@@ -79,7 +85,8 @@ body {
 
 .pageTag {
     font-size: 30px;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 50;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     color: rgb(68, 88, 102);
 }
 
@@ -88,10 +95,11 @@ body {
 }
 
 .aboutMeText {
+    padding-top: 10px;
     font-size: 20px;
     letter-spacing: 0.6px;
     font-family: 'Courier New', Courier, monospace;
-    font-weight: 500;
+    font-weight: 800;
 }
 
 .contentPage {
@@ -101,7 +109,7 @@ body {
 }
 
 .portfolioPage {
-    background: rgb(235, 235, 235);
+    background: rgb(232, 233, 223);
 }
 
 .flex-gallery {
