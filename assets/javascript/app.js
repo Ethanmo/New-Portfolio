@@ -21,6 +21,6 @@ $(".nav-link").on("click", function(){
     var target = $($(this.hash));
     $('html, body').animate({
         scrollTop: $(target).offset().top
-    },500, 'linear');
+    },200, 'linear');
 })
 
